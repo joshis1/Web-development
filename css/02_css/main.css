@@ -1,0 +1,22 @@
+body {
+
+    background-color: darkgreen;
+}
+
+h1 {
+
+    color: coral;
+    text-align: center;
+}
+
+.myclass {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  margin: auto;
+}
+
+#myid {
+color: darkslategrey;
+font-size: 40px;
+}
