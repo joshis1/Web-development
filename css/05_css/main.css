@@ -1,0 +1,14 @@
+ul li {
+
+        color: blue;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+ul > li {
+color: violet;
+font-size: 30px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
