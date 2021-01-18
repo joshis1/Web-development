@@ -1,3 +1,19 @@
+html {
+
+font-family: 'Times New Roman', Times, serif, sans-serif;
+
+}
+
+
+
+/** grouping **/
+h1,h2,h3{
+color: crimson;
+/*line-height: 1rem;*/
+
+}
+
+
 .box
 {
   background-color: burlywood;
