@@ -22,6 +22,8 @@ header {
   padding-top: 20px;
   padding-bottom: 20px;
   align-items: center;
+  border-bottom: 1px solid lightgray;
+  
 }
 
 .logo {
@@ -142,6 +144,62 @@ h1 {
       box-shadow: 0px 2px 2px rgba(0,0,0,228);
   }
 
-  nav a.mybutton{
-      margin-left: 30px;
+  .navbutton{
+      padding: 5px 5px;
+      text-decoration: none;
+      border-radius: 0px;
+      color: white;
+      background-color: #FC5E55;
+      border-color: white;
+      box-shadow: none;
+      border: 1px solid white;
+      display: inline-block;
+      position: relative;
+      
   }
+
+  .navbutton a {
+      text-decoration: none;
+      color: white;
+  }
+
+  .dropdown {
+    position:absolute;
+    display:none;
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  .navbutton:hover .dropdown{
+      display: block;
+  }
+
+  .testimonials{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-bottom: 50px;
+  }
+  
+
+  .tbox {
+     border: 1px solid white;
+     width: 48%;
+     box-sizing: border-box;
+     padding: 10px;
+     margin-top: 30px;
+  }
+
+  /* pseudo class */
+
+  .herobox1 a.mybutton:hover {
+      background-color: aquamarine;
+      transition-duration: 1s;
+  }
+
+  .tbox :last-child
+  {
+      font-size: 0.8rem;
+      padding-left: 30px;
+  }
+   

@@ -1,0 +1,24 @@
+.navbutton {
+  background-color: lawngreen;
+  width: 100px;
+  display: inline-block;
+  text-decoration: none;
+  position: relative;
+}
+
+
+.navbutton a {
+    text-decoration: none;
+}
+
+.dropdown {
+    display: none;
+    position: absolute; 
+    padding: 5px 5px;
+    margin-left: -10px;
+}
+
+
+.navbutton:hover .dropdown {
+    display: block;
+}
