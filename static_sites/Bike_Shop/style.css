@@ -1,7 +1,13 @@
 /** cascading styling sheet **/
 
-body{
+html {
     background-image: linear-gradient(#FC5E55, #FA4083);
+}
+
+body{
+    background-image: url(images/image-lion-background.png);
+    background-repeat: no-repeat;
+    background-position: center;
     font-family: 'Roboto', sans-serif;
     color: white;
     font-size: 1.125 rem;
@@ -203,3 +209,8 @@ h1 {
       padding-left: 30px;
   }
    
+  .main2 {
+    width: 800px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
