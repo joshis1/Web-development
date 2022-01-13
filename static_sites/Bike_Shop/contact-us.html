@@ -58,7 +58,56 @@
 
             <h1>Contact us</h1>
             <p> Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within a matter of hours to help you. </p>
-         </div>
+         
+            <form action="mail.php" method="post">
+
+               <div class="inputwrapper">
+                   <label for="Name" class="newline">Name</label>
+                   <input type="text" name="Name" id="Name" placeholder="your name">
+               </div>
+
+                <div class="inputwrapper">
+                    <label for="Email" class="newline">Email Address</label>
+                    <input type="email" name="Email" id="Email" placeholder="your email address">
+                </div>
+
+                <div class="inputwrapper">
+                    <label for="message" class="newline">Message</label>
+                    <textarea name="" id="" cols="100" rows="5" id="message"></textarea>
+                </div>
+
+                <div class="inputwrapper">
+                    <input type="checkbox" name="email-sub" id="email-sub" value="yes-sign-me-up" checked>
+                    <label for="email-sub">Email Subscription</label>
+                </div>
+
+                <div class="inputwrapper">
+                   <p>How would you like to contacted?</p>
+                   <input type="radio" name="email-contact" id="email-contact" value="email-contact">
+                   <label for="email-contact">email</label>
+                   <input type="radio" name="email-contact" id="phone-contact" value="phone-contact">
+                   <label for="phone-contact">phone</label>
+                </div>
+
+                <div class="inputwrapper">
+                  <select name="Suburb" id="suburb">
+                  <option value="not-chosen">Choose Suburb</option>
+                  <option value="stafford">Stafford</option>
+                  <option value="algester">Algester</option>
+                  <option value="labrador">Labrador</option>
+                </select>
+
+                 <input type="date" name="date" id="date">
+                 <input type="color" name="color" id="color">
+                 <input type="file" name="file" id="file">
+
+                </div>
+
+                <input type="button" class="navbutton" value="Fire Away">
+            </form>
+        
+        
+        </div>
 
         <div class="cards">
             <div class="card1">
