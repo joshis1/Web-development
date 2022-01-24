@@ -1,12 +1,11 @@
 import React from "react";
-
 import "./ExpensesFilter.css";
 
 const ExpensesFilter = (props) => {
    const yearPickerHandler = (event) => {
        console.log(event.target.value);
        props.onYearPick(event.target.value);
-   }
+   };
 
   return (
     <div className="expenses-filter">
