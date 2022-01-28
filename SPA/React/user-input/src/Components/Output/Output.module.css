@@ -1,0 +1,16 @@
+.container {
+    width: 500px;
+    display: block;
+    border-radius: 12px;
+    padding: 20px;
+    background-color: green;
+    margin: auto;
+    margin-bottom: 50px;
+
+}
+
+input[type=text]
+{
+    width: 100%;
+}
+

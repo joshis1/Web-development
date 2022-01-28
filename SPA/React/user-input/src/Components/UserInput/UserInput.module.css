@@ -1,0 +1,30 @@
+.container {
+    width: 500px;
+    display: block;
+    border-radius: 12px;
+    padding: 20px;
+    background-color: green;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+}
+
+.inputWrapper label {
+  font-weight: bold;
+  padding-bottom: 20px;
+  justify-content: space-between;
+  
+}
+
+.inputWrapper input  {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  justify-content: space-between;
+  
+}
+
+input[type=text]
+{
+    width: 100%;
+}

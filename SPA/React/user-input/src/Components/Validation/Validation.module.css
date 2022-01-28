@@ -1,0 +1,64 @@
+.containerValidHeader {
+    width: 500px;
+    display: block;
+    background-color: blueviolet;
+    margin: auto;
+    color: white;
+    font-weight:  bold;
+    font-size: 1.2rem;
+    position: relative;
+    border-radius: inherit;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border: 2px solid blueviolet;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+}
+
+.containerValidHeader label {
+    width: 500px;
+    position: relative;
+    padding: 20px;
+}
+
+.containerMessageValidator {
+    width: 500px;
+    display: block;
+    background-color: whitesmoke;
+    margin: auto;
+    color: black;
+    font-size: 1rem;
+    position: relative;
+    padding-top: 60px;
+    border-radius: inherit;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    box-sizing: border-box;
+}
+
+.containerMessageValidator label{
+   padding: 20px;
+}
+
+.card {
+    border: 2px solid white;
+    border-radius: 12px;
+    width: 500px;
+    position: relative;
+    margin: auto;
+    
+}
+
+.myvalidbtn {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    border-radius: inherit;
+}
+
+.myvalidbtn button{
+    background-color: blueviolet;
+    color: white;
+}
