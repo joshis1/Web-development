@@ -1,0 +1,96 @@
+.title {
+  font-weight: bold;
+  color: Black;
+  border: 1px solid white;
+  padding: 10px;
+  align-items: right;
+  background: #f2f2f2;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.labelTitle {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  color: #808080;
+}
+
+.switch {
+  color: black;
+  display: flex;
+}
+
+.formControlContainer {
+  margin-top: 1rem;
+  /* display: flex;  */
+}
+
+.formControlContainer .formControl {
+  flex: auto;
+  margin: 1rem;
+}
+
+.saveButtonContainer {
+  color: black;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.5em;
+  margin-top: 1rem;
+}
+
+.saveButtonContainer button {
+  display: flex;
+  justify-content: flex-end;
+  align-items: right;
+  background: #f04c23;
+}
+
+.saveButtonContainer button:hover {
+  background: #f04c23;
+}
+
+.saveButtonContainer .buttonDisable {
+  background: #cccccc;
+}
+
+button {
+  display: flex;
+  justify-content: flex-end;
+  align-items: right;
+  background: #f04c23;
+}
+
+.FormControl {
+  min-width: 200;
+}
+
+.Text {
+  width: 200;
+}
+
+.smallText {
+  width: 100;
+}
+
+.Divider {
+  margin-top: 100;
+}
+
+.SubDivider {
+  margin-bottom: 20;
+}
+
+.addDeleteContainer {
+  color: black;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.addDeleteContainer .operationButton {
+  background: #91d7ea;
+  margin: 0.5rem;
+}
+
+.gridContainer {
+  margin-left: 1rem;
+}

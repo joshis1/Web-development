@@ -1,0 +1,34 @@
+.root {
+  height: 100vh;
+  /* overflow-x: auto;
+    overflow-y: auto; */
+}
+
+.switchButtonContainer {
+  color: black;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.5em;
+  margin-right: 1.5rem;
+}
+
+.switchButtonContainer button {
+  background: #91d7ea;
+}
+
+.tabPanel {
+  background: #4d4d4d;
+  /* margin-right: 3rem; */
+}
+
+.tabPanel .tab {
+  text-transform: none;
+}
+
+.Divider {
+  margin-top: 100;
+}
+
+.SubDivider {
+  margin-bottom: 20;
+}

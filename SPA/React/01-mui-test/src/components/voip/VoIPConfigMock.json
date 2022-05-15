@@ -1,0 +1,184 @@
+{
+  "account": {
+    "user": "5002",
+    "displayName": "5002",
+    "domain": "",
+    "dnsSrv": false,
+    "proxies": [
+      {
+        "addr": "10.10.10.51",
+        "port": 5060
+      }
+    ],
+    "vendor": 5,
+    "auth": {
+      "user": "5002",
+      "passwd": "123456"
+    },
+    "transport": 1,
+    "regInterval": 3600,
+    "avpfInterval": 3,
+    "sipsUri": false,
+    "avpf": false,
+    "reqRegister": true,
+    "pubPresenceInfo": false
+  },
+  "callControl": {
+    "autoAnswer": {
+      "enable": false,
+      "delay": 10
+    },
+    "redial": true,
+    "dnd": false,
+    "consultTransfer": false,
+    "encryption": {
+      "mode": 1,
+      "algorithm": 2
+    },
+    "sessTimer": {
+      "enable": true,
+      "refresher": 1,
+      "expires": 1800,
+      "minExpires": 90
+    },
+    "prack": false,
+    "dialPlan": {
+      "dialingTimeOut": 3,
+      "digitMap": "[2-9]11|0T|011xxx.T|[0-1][2-9]xxxxxxxxx|[2-9]xxxxxxxxx|[2-9]xxxT",
+      "normRules": [
+        {
+          "label": "2",
+          "matchPattern": "ree",
+          "translationPattern": "2343"
+        },
+        {
+          "label": "3",
+          "matchPattern": "afa",
+          "translationPattern": "43"
+        },
+        {
+          "label": "5",
+          "matchPattern": "sfa",
+          "translationPattern": "232"
+        },
+        {
+          "label": "29",
+          "matchPattern": "fsree",
+          "translationPattern": "123"
+        }
+      ]
+    },
+    "tone": {
+      "localDtmfLevel": -6.0,
+      "localDtmfMute": false,
+      "CPTLevel": -20.0,
+      "dtmfType": 1
+    },
+    "ringer": "notes_of_the_optimistic.mkv",
+    "codecs": [
+      {
+        "inUse": true,
+        "codec": 1,
+        "conf": {
+          "bitRate": 510,
+          "useinbandfec": true,
+          "usedtx": false,
+          "cbr": false
+        }
+      },
+      {
+        "inUse": true,
+        "codec": 2,
+        "conf": {
+          "bitRate": 0,
+          "useinbandfec": false,
+          "usedtx": false,
+          "cbr": false
+        }
+      },
+      {
+        "inUse": true,
+        "codec": 3,
+        "conf": {
+          "bitRate": 0,
+          "useinbandfec": false,
+          "usedtx": false,
+          "cbr": false
+        }
+      },
+      {
+        "inUse": true,
+        "codec": 4,
+        "conf": {
+          "bitRate": 0,
+          "useinbandfec": false,
+          "usedtx": false,
+          "cbr": false
+        }
+      },
+      {
+        "inUse": true,
+        "codec": 5,
+        "conf": {
+          "bitRate": 0,
+          "useinbandfec": false,
+          "usedtx": false,
+          "cbr": false
+        }
+      }
+    ],
+    "comfortNoise": false
+  },
+  "nat": {
+    "keepalive": false,
+    "ice": false,
+    "turnEnable": false,
+    "stunTurnSrv": {
+      "addr": "",
+      "port": 0
+    },
+    "auth": {
+      "user": "",
+      "passwd": ""
+    }
+  },
+  "qos": {
+    "sipL3": 11,
+    "rtpL3": 19
+  },
+  "transports": {
+    "sipUdp": {
+      "enable": true,
+      "port": 5060,
+      "random": false
+    },
+    "sipTcp": {
+      "enable": false,
+      "port": 5060,
+      "random": false
+    },
+    "sipTls": {
+      "enable": false,
+      "port": 5061,
+      "random": false
+    },
+    "rtpUdp": {
+      "enable": true,
+      "port": 7078,
+      "random": true
+    }
+  },
+  "tls": {
+    "version": 3,
+    "cert": {
+      "tlsCert": "",
+      "tlsCertPref": 1
+    }
+  },
+  "diag": {
+    "log": {
+      "enable": true,
+      "level": 6
+    }
+  }
+}

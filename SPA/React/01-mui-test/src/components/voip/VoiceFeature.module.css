@@ -1,0 +1,58 @@
+.voiceFeatureContainer {
+  padding-bottom: 2rem;
+}
+
+.title {
+  font-weight: bold;
+  color: Black;
+  border: 1px solid white;
+  padding: 10px;
+  align-items: right;
+  background: #f2f2f2;
+  font-size: 1rem;
+}
+
+.labelTitle {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  color: #808080;
+}
+
+.switch {
+  color: black;
+  display: flex;
+}
+
+.TableHead {
+  font-weight: bold;
+}
+
+.saveButtonContainer {
+  color: black;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.5em;
+  margin-top: 1rem;
+}
+
+.saveButtonContainer button {
+  display: flex;
+  justify-content: flex-end;
+  align-items: right;
+  background: #f04c23;
+}
+
+.saveButtonContainer button {
+  display: flex;
+  justify-content: flex-end;
+  align-items: right;
+  background: #f04c23;
+}
+
+.saveButtonContainer button:hover {
+  background: #f04c23;
+}
+
+.saveButtonContainer .buttonDisable {
+  background: #cccccc;
+}
