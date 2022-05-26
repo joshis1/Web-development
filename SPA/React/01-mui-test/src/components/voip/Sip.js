@@ -56,13 +56,13 @@ export default function Sip(SipProps) {
   ];
 
   const onChangeHandler = (event) => {
-    context.settingsManager.onChange(event, setSettings);
+    //context.settingsManager.onChange(event, setSettings);
     SipProps.onSaveState(true);
     setSaveState(true);
   };
 
   const onSubmitHandler = (event) => {
-    context.settingsManager.onSubmit(event);
+    //context.settingsManager.onSubmit(event);
     SipProps.onSaveState(false);
     setSaveState(false);
   };

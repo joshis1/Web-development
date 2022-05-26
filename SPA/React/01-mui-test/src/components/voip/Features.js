@@ -17,7 +17,7 @@ import VoipConfig from "./VoIPConfigMock.json";
 //import { DefaultContext } from "../../context/DefaultContext";
 
 export default function Features(featureProps) {
-  const context = useContext(DefaultContext);
+  //const context = useContext(DefaultContext);
   //const [settings, setSettings] = useState(context.settingsManager.settings);
 
   const [saveState, setSaveState] = useState(false);
